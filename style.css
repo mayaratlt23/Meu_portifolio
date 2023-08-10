@@ -1,0 +1,123 @@
+/*CONFIGURAÇÃO DA PAGINA INTEIRA*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+/* CAIXA PRINCIPAL - PRIMEIRA DIV */
+.caixa-principal {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./imagens/background.png);
+  background-position: right;                           /*posicionar a imagem*/
+  background-repeat: no-repeat;
+  background-color: #3a393b;                   /*primeira imagem do site*/
+}
+
+/*ESTILIZAR O MENU DE NAVEGAÇÃO */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 25px;
+}
+
+/* ESTILIZAR O NOME PORTIFOLIO */
+.portifolio {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 900;
+}
+.portifolio span {
+  color: #8e7dbe;
+}
+
+/*ESTILIZAR A LISTA DO MENU DE NAVEGAÇÃO */
+li {
+  color: #ffffff;
+  list-style: none;                       /*remover os pontinhos do lado da lista*/
+  display: inline-block;             /*deixa os nomes do menu um ao lado do outro*/
+  font-size: 21px;
+  margin-right: 16px;
+  cursor: pointer;                     /*efeito de quando passar o mouse em cima ficar a mãozinha*/
+}
+
+/*EFEITO DE QUANDO PASSAR O MOUSE EM CIMA DA PALAVRA ELA MUDAR DE COR*/
+li:hover {
+  color: #8e7dbe;
+  transition: 0.5s;
+}
+
+/*POSICIONAR MEU NOME*/
+.meu-nome {
+  position: absolute;
+  top: 50%;
+  left: 7%;
+}
+
+/*ESTILIZAR MEU NOME */
+h1 {
+  color: white;
+  font-size: 50px;
+}
+
+h1 span {
+  color: #8e7dbe;
+}
+
+/* ESTILIZAR O NOME "PROGRAMADORA FRON END"*/
+.meu-nome h3 {
+  color: white;
+  font-size: 20px;
+}
+
+/*ESTILIZAR O FUNDO DO SOBRE MIM*/
+section {
+  display: flex;
+  align-items: center;
+  padding: 60px 15%;
+  background-color: #202020;
+}
+
+/*ESTILIZAR MINHA IMAGEM*/
+section img {
+  height: 500px;
+  border-radius: 100%;
+  margin-right: 10%;
+}
+
+/*ESTILIZAR O NOME SOBRE MIM*/
+section div h2 {
+  color: white;
+  font-size: 55px;
+}
+
+/*ESTILIZAR O TEXTO DO SOBRE MIM*/
+section div p {
+   color: white;
+   font-size: 18px;
+   margin-top: 30px;
+   margin-bottom: 60px;
+}
+
+/*ESTILIZAR O BOTÃO ENTRE EM CONTATO*/
+section div button {
+   color: black;
+   background: #8e7dbe;
+   height: 45px;
+   width: 180px;
+   font-size: 18px;
+   border: none;
+   border-radius: 25px;
+   cursor: pointer;
+}
+
+/*EFEITO DE PASSAR O MOUSE E MUDAR DE COR*/
+section div button:hover {
+   background-color:  #72ddf7;
+   border: 3px solid #202020;
+   transition: 0.5s;
+}
