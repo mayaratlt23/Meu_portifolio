@@ -12,7 +12,7 @@
   background-image: url(./imagens/background.png);
   background-position: right;                           /*posicionar a imagem*/
   background-repeat: no-repeat;
-  background-color: #3a393b;                   /*primeira imagem do site*/
+  background-color: #202020;                   /*primeira imagem do site*/
 }
 
 /*ESTILIZAR O MENU DE NAVEGAÇÃO */
@@ -32,7 +32,7 @@ nav {
   font-weight: 900;
 }
 .portifolio span {
-  color: #8e7dbe;
+  color: #7B68EE;
 }
 
 /*ESTILIZAR A LISTA DO MENU DE NAVEGAÇÃO */
@@ -47,8 +47,14 @@ li {
 
 /*EFEITO DE QUANDO PASSAR O MOUSE EM CIMA DA PALAVRA ELA MUDAR DE COR*/
 li:hover {
-  color: #8e7dbe;
+  color: #7B68EE;
   transition: 0.5s;
+}
+
+/*ESTILIZAR OS NOMES DO MENU*/
+.link-menu {
+  text-decoration: none;
+  color: white;
 }
 
 /*POSICIONAR MEU NOME*/
@@ -65,7 +71,7 @@ h1 {
 }
 
 h1 span {
-  color: #8e7dbe;
+  color: #7B68EE;
 }
 
 /* ESTILIZAR O NOME "PROGRAMADORA FRON END"*/
@@ -79,7 +85,7 @@ section {
   display: flex;
   align-items: center;
   padding: 60px 15%;
-  background-color: #202020;
+  background-color: #3a393b;
 }
 
 /*ESTILIZAR MINHA IMAGEM*/
@@ -105,8 +111,8 @@ section div p {
 
 /*ESTILIZAR O BOTÃO ENTRE EM CONTATO*/
 section div button {
-   color: black;
-   background: #8e7dbe;
+   color: white;
+   background: #7B68EE;
    height: 45px;
    width: 180px;
    font-size: 18px;
@@ -125,15 +131,15 @@ section div button:hover {
 /* COR DE FUNDO ONDE FICA OS PROJETOS*/
 .projetos {
   background-color: #131212;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding-top: 50px;
+   padding-bottom: 100px;
 }
 
 /*ESTILIZAR O NOME "PRINCIPAIS PROJETOS*/
 .projetos h2 {
   color: rgb(248, 245, 245);
   font-size: 75px;
+  text-align: center; 
 }
 
 /* COR DO QUADRADO ONDE FICA OS PROJETOS*/
@@ -165,7 +171,7 @@ section div button:hover {
 
 /*ESTILIZAR O BOTÃO "VER PROJETO" DO MARIO*/
 .card a {
-  background-color: #6f1fca;
+  background-color: #7B68EE;
   color: #ffffff;
   padding: 10px 20px;
   border-radius: 25px;
@@ -183,4 +189,53 @@ section div button:hover {
   display: flex;
   justify-content: space-around;
   margin: 100px;
+}
+
+footer {
+  background-color: #7B68EE;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer h5 {
+  color: white;
+  font-size: 30px;
+}
+
+footer p {
+  color: white;
+  font-size: 18px;
+  margin-top: 14px;
+  margin-bottom: 30px;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+}
+
+.social img {
+  height: 35px;
+  border-radius: 50%;
+}
+
+.social a {
+  background-color: white;
+  border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 50px;
+ width: 50px;
+ cursor: pointer;
+}
+
+/*ESFEITO DE PASSARO MOUSE E O ICONE AUMENTAR*/
+.social a:hover {
+  transform: scale(1.3);
+  transition: 0.5s;
 }
