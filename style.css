@@ -11,7 +11,7 @@
   width: 100%;
   background-position: right;                        /*posicionar a imagem*/
   background-repeat: no-repeat;
-  background: linear-gradient( #9198e5, #6533a7);
+  background: linear-gradient( #438bd3, #6533a7);
   /* background-image: url(./imagens/fundo.png); */
 }
 
@@ -139,7 +139,7 @@ section div button:hover {
 
 /* COR DE FUNDO ONDE FICA OS PROJETOS*/
 .projetos {
-  background: linear-gradient(#9198e5, #6533a7);
+  background: linear-gradient(#9198e5, #9198e5);
   padding-top: 50px;
    padding-bottom: 100px;
 }
